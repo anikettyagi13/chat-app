@@ -102,3 +102,7 @@ $sendLocationButton.addEventListener('click', () => {
         })
     })
 })
+socket.on('noUser',(text)=>{
+    alert(text);
+    location.href ="/";
+})
